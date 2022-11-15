@@ -7,5 +7,60 @@ html {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin:auto;
+    padding: 30px;
+    background-color:rgba(204, 204, 204, 0.253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.container {
+    flex-basis: 800px;
+    text-align: left;
+}
+
+.section {
+    padding-bottom: 10px;
+    background-color: white;
+}
+.section--last {
+    padding-bottom: 25px;
+}
+
+.section__inner {
+    font-size: 20px;
+    padding: 15px 15px;
+    margin-bottom: 5px;
+    border-bottom: 1.5px solid;
+    border-color: rgba(204, 204, 204, 0.253);
+}
+
+.section__newTask {
+    padding: 5px 5px;
+    margin-left: 5px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.section__newTask--input {
+    padding: 8px;
+    border-color: rgba(204, 204, 204, 0.253);
+    border-style:double;
+    font-size: 14px;
+    width: 640px;
+}
+
+.section__button {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 100;
+    border-style: none;
+    color:white;
+    background-color:rgba(12, 94, 97, 0.993)
+}
+
