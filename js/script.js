@@ -1,14 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "nagrać lekcje",
-            done: false,
-        },
-        {
-            content:"zjeść pierogi",
-            done: true,
-        },
-    ];
+    const tasks = [];
     
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -52,10 +43,10 @@
         for (const task of tasks) {
             htmlString += `
             <li
-                ${task.done ? " style=\"text-decoration: line-through\"" : ""}
+            class="list__item${task.done ? " list__item--done" : ""}"
             >
-            <button class="js-done">zrobione?</button>
-            <button class="js-remove">usuń</button>
+            <button class="js-done button__list"></button>
+            <button class="js-remove button__list--remove"></button>
                 ${task.content}
             </li>
             `;
@@ -79,10 +70,15 @@
         addNewTask(newTaskContent);
     };
     
+    const focusInput = () => {
+        document.getElementById("focusButton").addEventListener("click", () => {
+            document.getElementById("textArea").focus();
+        });
+    };
 
     const init = () => {
         render();
-
+        focusInput();
         const form = document.querySelector(".js-form");
         
         form.addEventListener("submit", onFormSubmit);
