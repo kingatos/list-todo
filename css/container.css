@@ -1,0 +1,11 @@
+.container {
+    flex-basis: 800px;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 260px;
+        text-align: center;
+    }
+}

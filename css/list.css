@@ -1,0 +1,42 @@
+.list__item {
+    text-decoration: none;
+    list-style-type:none;
+    padding-bottom: 2px;
+    border-bottom: 1.5px solid;
+    border-color: rgba(204, 204, 204, 0.253);
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}
+
+.button__list {
+    border: none;
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color:rgb(13, 97, 13);
+}
+
+.button__list:focus {
+    background-image: url("../images/done.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+
+.button__list--remove {
+    order:3;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(212, 11, 11);
+    background-image: url("../images/wastebasket.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    cursor: pointer;
+    border: none;
+}
