@@ -1,13 +1,15 @@
 # List to do                                              
 - by kingatos. || **DEMO**  -> https://kingatos.github.io/list-todo/
 ## PREVIEW
-![How to use](https://i.ibb.co/wdh15KK/listTodo.gif)
+![How to use](https://i.ibb.co/Yc0QTx7/listTodo.gif)
 ## DESTRIPTION
-- This is a simply website about list to do. Check it out!
+- This is a simple list to do. Enter your responsibilities and manage them. Check it out!
 ## TECHNOLOGIES
 - HTML
 - CSS
 - JavaScript ES6+
 - BEM Convention
+- Media Queries
+- Open Graph
 - FLEX
 - Normalise.css
