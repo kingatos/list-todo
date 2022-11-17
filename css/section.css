@@ -59,6 +59,12 @@
     background-color:rgba(20, 88, 90, 0.849)
 }
 
+@media (max-width: 400px) {
+    .section__button {
+        width:100%;
+    }
+}
+
 .section__button:hover {
     background-color: rgba(20, 88, 90, 0.308)
 }
