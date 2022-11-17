@@ -45,6 +45,7 @@
 .list__form {
     margin: 0;
     margin-left: 10px;
+    font-size: 14px;
     padding: 5px;
     flex-grow: 1;
 }
