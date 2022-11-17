@@ -49,3 +49,15 @@
     padding: 5px;
     flex-grow: 1;
 }
+
+@media (max-width:400px) {
+    .list__form {
+        width:100%;
+    }
+}
+
+@media (max-width:767px) {
+    .list__form {
+        width:100%;
+    }
+}
