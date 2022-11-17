@@ -23,7 +23,7 @@
 }
 
 .button__list:hover {
-    background-color:rgba(13, 97, 13, 0.658);
+    border: 1px solid black;
 }
 
 .button__list--remove {
@@ -39,7 +39,7 @@
 }
 
 .button__list--remove:hover {
-    background-color:rgba(212, 11, 11, 0.692);
+    border: 1px solid black;
 }
 
 .list__form {
