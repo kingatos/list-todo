@@ -1,24 +1,27 @@
-.list__item {
-    text-decoration: none;
-    list-style-type:none;
-    padding-bottom: 2px;
-    border-bottom: 1.5px solid;
-    border-color: rgba(204, 204, 204, 0.253);
-    display: flex;
-    justify-content: space-between;
-
+.tasks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.list__item--done {
+.list__item {
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+.list__itemDone {
     text-decoration: line-through;
 }
 
 .button__list {
+    padding: 5px;
     border: none;
     width: 30px;
     height: 30px;
-    color: rgb(255, 255, 255);
     cursor: pointer;
+    color:white;
     background-color:rgb(13, 97, 13);
 }
 
@@ -26,7 +29,8 @@
     border: 1px solid black;
 }
 
-.button__list--remove {
+.button__listRemove {
+    padding: 5px;
     width: 30px;
     height: 30px;
     background-color: rgb(212, 11, 11);
@@ -38,7 +42,7 @@
     border: none;
 }
 
-.button__list--remove:hover {
+.button__listRemove:hover {
     border: 1px solid black;
 }
 
@@ -47,7 +51,6 @@
     margin-left: 10px;
     font-size: 14px;
     padding: 5px;
-    flex-grow: 1;
 }
 
 @media (max-width:400px) {
@@ -57,6 +60,12 @@
 }
 
 @media (max-width:767px) {
+    .list__form {
+        width:100%;
+    }
+}
+
+@media (max-width:2560px) {
     .list__form {
         width:100%;
     }

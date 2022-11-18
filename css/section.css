@@ -1,75 +1,18 @@
 .section {
-    padding-bottom: 10px;
-    background-color: white;
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 0 5px #ddd;
+    
 }
 
-@media (max-width: 400px) {
-    .section {
-        max-width: 95%;
-    }
-}
-
-.section--last {
-    padding-bottom: 10px;
-}
-
-.section__inner {
+.section__header {
     font-size: 20px;
-    padding: 15px 15px;
-    margin-top: 8px;
-    margin-bottom: 5px;
-    border-bottom: 1.5px solid;
-    border-color: rgba(204, 204, 204, 0.253);
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
 }
 
-.section__newTask {
-    padding: 5px 5px;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-}
-
-@media (max-width: 400px) {
-    .section__newTask {
-        display:flex;
-        flex-wrap: wrap;
-        justify-content:center;
-        width:95%;
-    }
-}
-
-.section__newTask--input {
-    margin: 5px 8px;
-    padding: 5px;
-    border-color: rgba(204, 204, 204, 0.253);
-    border-style:double;
-    font-size: 14px;
-    flex-grow: 1;
-}
-
-.section__button {
-    padding: 10px;
-    margin: 6px;
-    font-size: 14px;
-    font-family:'Montserrat', sans-serif;
-    font-weight: 100;
-    border-style: none;
-    color:white;
-    cursor: pointer;
-    background-color:rgba(20, 88, 90, 0.849)
-}
-
-@media (max-width: 400px) {
-    .section__button {
-        width:100%;
-    }
-}
-
-.section__button:hover {
-    border: 1px solid black;
-}
-
-.section__tasks {
-    padding: 0 50px;
+.section__body {
+    padding: 20px;
 }
 

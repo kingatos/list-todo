@@ -1,17 +1,5 @@
 .container {
-    flex-basis: 800px;
-    text-align: left;
-}
-
-@media (max-width: 400px) {
-    .container {
-        max-width: 260px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 767px) {
-    .container {
-        width:95%;
-    }
+    flex-basis: 900px;
+    padding: 20px;
+    margin: 0 auto;
 }
