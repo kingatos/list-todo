@@ -45,12 +45,16 @@
             htmlString += `
             <li class="list__item"
             >
-            <button class="js-done button__list">${task.done ? "✔" : ""}</button>
-            <p class="list__form${task.done ? " list__item--done\"" : "\""}>${task.content}</p>
-            <button 
-            class="js-remove button__list--remove">
-            </button>
-                
+                <button class="js-done button__list">
+                 ${task.done ? "✔" : ""}
+                </button>
+                <p class="list__form${task.done ? " list__item--done\"" : "\""}>
+                 ${task.content}
+                </p>
+                <button 
+                 class="js-remove button__list--remove">
+                </button>
+                    
             </li>
             `;
         }
