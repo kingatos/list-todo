@@ -48,11 +48,11 @@
                 <button class="js-done button__list">
                  ${task.done ? "✔" : ""}
                 </button>
-                <p class="list__form${task.done ? " list__item--done\"" : "\""}>
+                <p class="list__form${task.done ? " list__itemDone\"" : "\""}>
                  ${task.content}
                 </p>
                 <button 
-                 class="js-remove button__list--remove">
+                 class="js-remove button__listRemove">
                 </button>
                     
             </li>
