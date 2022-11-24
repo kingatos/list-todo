@@ -1,0 +1,32 @@
+.buttons {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.buttons__hideAndAllDone {
+    font-size: 15px;
+    color: teal;
+    border: none;
+    background-color: transparent;
+    transition: color 0.5s;
+    cursor: pointer;
+    padding: 6px;
+}
+
+@media (max-width: 767px) {
+    .buttons__hideAndAllDone {
+        flex-basis: 100%;
+    }
+}
+
+.buttons__hideAndAllDone:hover {
+    color: hsl(191, 100%, 60%);
+}
+
+.buttons__hideAndAllDone:active {
+    color: hsl(180, 100%, 35%);
+}
+
+.buttons__hideAndAllDone:disabled {
+    color: #ccc;
+}
