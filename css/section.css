@@ -2,14 +2,22 @@
     margin: 10px 0;
     background: white;
     box-shadow: 0 0 5px #ddd;
-    
 }
 
 .section__header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
     font-size: 20px;
     padding: 20px;
     margin: 0;
     border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
 }
 
 .section__body {
