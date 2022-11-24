@@ -11,6 +11,10 @@
     display: flex;
 }
 
+.list__item--hidden {
+    display: none;
+}
+
 .list__itemDone {
     text-decoration: line-through;
 }
@@ -22,8 +26,8 @@
     height: 30px;
     cursor: pointer;
     color:white;
-    background-color:rgb(13, 97, 13%);
-    transition: 1s;
+    background:rgb(13, 97, 33);
+    transition: 0.5s;
 }
 
 .button__list:hover {
@@ -45,6 +49,7 @@
     background-size: 17px;
     cursor: pointer;
     border: none;
+    transition: 0.5s;
 }
 
 .button__listRemove:hover {
@@ -60,4 +65,7 @@
     margin-left: 10px;
     font-size: 14px;
     padding: 5px;
+    flex-grow: 1;
+    width: 100%;
 }
+
