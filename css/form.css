@@ -21,13 +21,15 @@
     border-style: none;
     color:white;
     cursor: pointer;
-    background:rgba(20, 88, 90, 0.849)
+    transition: 1s;
+    background:hsl(180, 100%, 25%);
 }
 
 .form__button:hover {
-    background-color:hsla(182, 64%, 22%, 0.562)
+    background: hsl(180, 100%, 30%);
+    transform: scale(1.05);
 }
 
 .form__button:active {
-    background-color:hsla(182, 64%, 30%, 0.562)
+    background-color:hsl(180, 100%, 35%);
 }
