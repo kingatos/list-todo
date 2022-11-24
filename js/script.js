@@ -25,8 +25,8 @@
             ...tasks[taskIndex],
             done: !tasks[taskIndex].done
             },
-            ...tasks.slice(taskIndex +1 ),
-    ];
+            ...tasks.slice(taskIndex + 1),
+        ];
         render();
     };
 
@@ -43,7 +43,7 @@
         render();
     };
 
-    const bindRemoveEventsButtons = () => {
+    const bindRemoveButtonsEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
         
         removeButtons.forEach((removeButton, index) => {
@@ -53,7 +53,7 @@
         });
     };
 
-    const bindToggleDoneEventsButtons = () => {
+    const bindToggleDoneButtonsEvents = () => {
 
         const toggleDoneButtons = document.querySelectorAll(".js-done");
         
@@ -88,16 +88,17 @@
 
         for (const task of tasks) {
             htmlStringTasks += `
-            <li class="list__item ${task.done && hiddenTaskDone ? "list__item--hidden" : ""
-                }">
+            <li class="list__item ${task.done && hiddenTaskDone ? "list__item--hidden" : ""}"
+                >
                 <button class="js-done button__list">
-                ${task.done ? "✔" : ""}
+                    ${task.done ? "✔" : ""}
                 </button>
-                <p class="list__form ${task.done ? " list__itemDone\"" : "\""}>
-                ${task.content}
+                <p class="list__form ${task.done ? " list__itemDone\"" : "\""}
+                >
+                    ${task.content}
                 </p>
                 <button 
-                class="js-remove button__listRemove">
+                    class="js-remove button__listRemove">
                 </button>
                     
             </li>
@@ -112,7 +113,8 @@
 
         if (tasks.length > 0) {
             htmlStringButtons += `
-            <button class="buttons__hideAndAllDone js-hideTaskDone">
+            <button class="buttons__hideAndAllDone js-hideTaskDone"
+            >
              ${hiddenTaskDone ? "Pokaż" : "Ukryj"} ukończone
             </button>
             <button 
@@ -131,8 +133,8 @@
         renderTasks();
         renderButtons();
 
-        bindRemoveEventsButtons();
-        bindToggleDoneEventsButtons();
+        bindRemoveButtonsEvents();
+        bindToggleDoneButtonsEvents();
         bindButtonsEvents();
     };
     
