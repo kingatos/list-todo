@@ -30,7 +30,7 @@
         render();
     };
 
-    const toggleTaskDoneAll = () => {
+    const toggleAllTaskDone = () => {
         tasks = tasks.map((task) => ({
             ...task,
             done: true,
@@ -70,7 +70,7 @@
 
         if (toggleAllDone) {
             toggleAllDone.addEventListener("click", () => {
-                toggleTaskDoneAll();
+                toggleAllTaskDone();
             });
         };
 
