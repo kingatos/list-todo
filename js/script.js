@@ -113,8 +113,7 @@
 
         if (tasks.length > 0) {
             htmlStringButtons += `
-            <button class="buttons__button js-hideTaskDone"
-            >
+            <button class="buttons__button js-hideTaskDone">
              ${hiddenTaskDone ? "Pokaż" : "Ukryj"} ukończone
             </button>
             <button 
