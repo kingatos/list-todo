@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.buttons__hideAndAllDone {
+.buttons__button {
     font-size: 15px;
     color: teal;
     border: none;
@@ -19,14 +19,14 @@
     }
 }
 
-.buttons__hideAndAllDone:hover {
-    color: hsl(191, 100%, 60%);
+.buttons__button:hover {
+    color: hsl(191, 54%, 45%);
 }
 
-.buttons__hideAndAllDone:active {
+.buttons__button:active {
     color: hsl(180, 100%, 35%);
 }
 
-.buttons__hideAndAllDone:disabled {
+.buttons__button:disabled {
     color: #ccc;
 }
