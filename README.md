@@ -1,7 +1,7 @@
 # List to do                                              
 - by kingatos. || **DEMO**  -> https://kingatos.github.io/list-todo/
 ## PREVIEW
-![How to use](https://i.ibb.co/PNLN2Gx/listTodo.gif)
+![How to use](https://i.ibb.co/fkkXjYC/listTodo.gif)
 ## DESTRIPTION
 - This is a simple list to do. Enter your responsibilities and manage them. Check it out!
 ## TECHNOLOGIES
