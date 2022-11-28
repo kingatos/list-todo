@@ -10,12 +10,12 @@
     background-color: transparent;
     transition: color 0.5s;
     margin: 0 0 0 20px;
-    padding: 5px;
 }
 
 @media (max-width: 767px) {
     .buttons__button {
         flex-basis: 100%;
+        margin: 10px;
     }
 }
 
