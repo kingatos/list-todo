@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 767px) {
-    .buttons__hideAndAllDone {
+    .buttons__button {
         flex-basis: 100%;
     }
 }
