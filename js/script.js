@@ -10,10 +10,10 @@
         render();
     };
 
-    const removeTask = (removedtaskIndex) => {
+    const removeTask = (taskIndex) => {
         tasks = [
-            ...tasks.slice(0, removedtaskIndex),
-            ...tasks.slice(removedtaskIndex + 1),
+            ...tasks.slice(0, taskIndex),
+            ...tasks.slice(taskIndex + 1),
         ];
         render();
     };
