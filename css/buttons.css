@@ -10,6 +10,7 @@
     background-color: transparent;
     transition: color 0.5s;
     margin: 0 0 0 20px;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {
