@@ -1,5 +1,5 @@
 .form {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
 }
@@ -19,10 +19,10 @@
 .form__button {
     padding: 10px;
     border-style: none;
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
-    background:hsl(180, 100%, 25%);
+    background: hsl(180, 100%, 25%);
 }
 
 .form__button:hover {
@@ -31,5 +31,5 @@
 }
 
 .form__button:active {
-    background-color:hsl(180, 100%, 35%);
+    background-color: hsl(180, 100%, 35%);
 }

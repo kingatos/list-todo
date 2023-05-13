@@ -1,16 +1,16 @@
 html {
     box-sizing: border-box;
 }
-    
+
 *, ::after, ::before {
-    box-sizing:inherit;
+    box-sizing: inherit;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin:auto;
+    margin: auto;
     padding: 30px;
-    background-color:rgba(204, 204, 204, 0.253);
+    background-color: rgba(204, 204, 204, 0.253);
     display: flex;
     align-items: center;
     justify-content: center;
