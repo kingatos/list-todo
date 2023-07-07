@@ -12,4 +12,4 @@ It's a simple to do list. Enter and manage your responsibilities. You can use th
 
 ## TECHNOLOGIES
 
-`HTML` `CSS` `JavaScript ES6+` `BEM Convention` `Media Queries` `Open Graph` `FLEX/GRID` `Normalise.css` `localStorage`
+`HTML` `CSS` `JavaScript ES6+` `BEM Convention` `Media Queries` `Open Graph` `FLEX/GRID` `Normalise.css` `localStorage` `Vanilla JS`
